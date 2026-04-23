@@ -1,0 +1,39 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.28653",
+   "Default View_TopLeft":"-149,-58",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 2 -x 440 -y -20 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 2 -x 440 -y 10 -defaultsOSRD
+preplace port port-id_master_sclk -pg 1 -lvl 0 -x -30 -y 180 -defaultsOSRD
+preplace port port-id_master_mosi -pg 1 -lvl 0 -x -30 -y 300 -defaultsOSRD
+preplace port port-id_master_cs -pg 1 -lvl 0 -x -30 -y 240 -defaultsOSRD
+preplace port port-id_slave_miso -pg 1 -lvl 0 -x -30 -y 270 -defaultsOSRD
+preplace port port-id_master_miso -pg 1 -lvl 2 -x 440 -y 160 -defaultsOSRD
+preplace port port-id_slave_cs -pg 1 -lvl 2 -x 440 -y 250 -defaultsOSRD
+preplace port port-id_slave_mosi -pg 1 -lvl 2 -x 440 -y 220 -defaultsOSRD
+preplace port port-id_slave_sclk -pg 1 -lvl 2 -x 440 -y 190 -defaultsOSRD
+preplace port port-id_debug_led -pg 1 -lvl 2 -x 440 -y 280 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 200 -y 40 -defaultsOSRD
+preplace inst spi_logic_0 -pg 1 -lvl 1 -x 200 -y 240 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 2 10 340 390
+preplace netloc master_sclk_0_1 1 0 1 -10 180n
+preplace netloc master_mosi_0_1 1 0 1 0 230n
+preplace netloc master_cs_0_1 1 0 1 -10 240n
+preplace netloc slave_miso_0_1 1 0 1 N 270
+preplace netloc spi_logic_0_master_miso 1 1 1 400 160n
+preplace netloc spi_logic_0_slave_cs 1 1 1 420 250n
+preplace netloc spi_logic_0_slave_mosi 1 1 1 420J 220n
+preplace netloc spi_logic_0_slave_sclk 1 1 1 410J 190n
+preplace netloc spi_logic_0_debug_led 1 1 1 N 280
+preplace netloc processing_system7_0_DDR 1 1 1 390J -20n
+preplace netloc processing_system7_0_FIXED_IO 1 1 1 NJ 10
+levelinfo -pg 1 -30 200 440
+pagesize -pg 1 -db -bbox -sgen -170 -70 570 350
+"
+}
+{
+   "da_ps7_cnt":"1"
+}
